@@ -32,7 +32,7 @@ spec:
               value: root_password
             - name: MYSQL_DATABASE
               value: drupal-database
-          image: "mysql:5.7"
+          image: mysql:8.0.22
           name: cont-drupal-mysql
           ports: 
             - containerPort: 3306
